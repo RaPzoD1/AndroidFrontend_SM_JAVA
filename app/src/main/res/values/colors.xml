@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#535353</color>
+    <color name="colorPrimaryDark">#0a0a0a</color>
+    <color name="colorAccent">#535353</color>
+    <!-- Primary color of the app (shown in the app bar) -->
+    <color name="primary_color">#800000</color>
+
+    <!-- Primary dark color of the app (shown in the status bar) -->
+    <color name="primary_dark_color">#2F1D1A</color>
+
+    <!-- Background color for app -->
+    <color name="tan_background">#FFF7DA</color>
+
+    <!-- Background color para categoria promociones -->
+    <color name="category_promociones">#FD8E09</color>
+
+    <!-- Background color para categoria crecimiento -->
+    <color name="category_actividades">#379237</color>
+
+    <!-- Background color para categoria actualizacion -->
+    <color name="category_bolsalaboral">#8800A0</color>
+
+    <!-- Background color para actegoria oportunidades -->
+    <color name="category_transparencia">#16AFCA</color>
+
+    <!-- Background color para categoria vida univesitaria-->
+    <color name="category_universidad">#021AEE</color>
+
+    <color name="color_fondo_login">#fff</color>
+    <color name="colorSecundaryText">#FFFFFF</color>
+    <color name="whitedefault">@color/cardview_shadow_end_color</color>
+</resources>

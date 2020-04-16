@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_promociones"
+            android:icon="@drawable/promocionesimg"
+            android:title="Promociones" />
+        <item
+            android:id="@+id/nav_actividades"
+            android:icon="@drawable/actividades"
+            android:title="Actividades" />
+        <item
+            android:id="@+id/nav_bolsalaboral"
+            android:icon="@drawable/bolsalaboral"
+            android:title="Bolsa de Trabajo" />
+
+    </group>
+    <item android:title="Mis Publicaciones Favoritas">
+        <menu>
+            <item
+                android:id="@+id/MisPromociones"
+                android:icon="@drawable/miperfil"
+                android:title="Mis Promociones" />
+            <item
+                android:id="@+id/Misactividades"
+                android:icon="@drawable/miperfil"
+                android:title="Mis Actividades" />
+            <item
+                android:id="@+id/MiBolsaLab"
+                android:icon="@drawable/miperfil"
+                android:title="Mi Bolsa laboral" />
+        </menu>
+    </item>
+
+    <item android:title="Area de Graduados">
+        <menu>
+            <item
+                android:id="@+id/Miperfil"
+                android:icon="@drawable/miperfil"
+                android:title="Mi Perfil" />
+
+            <item
+                android:id="@+id/TerminarSession"
+                android:icon="@drawable/cerrarsesion"
+                android:title="Cerrar Sesion" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/heightcontainer"
+    android:background="@color/whitedefault"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/text_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/listItemIcon"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Title_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textSize="11dp"
+            android:textStyle="bold"
+            tools:text="El titulo viene aqui" />
+
+        <TextView
+            android:id="@+id/Autor_View"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textSize="10dp"
+            tools:text="aqui va el autor" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:id="@+id/dateTime_view"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:textSize="10dp"
+                android:textAppearance="?android:textAppearanceSmall"
+                tools:text="Fecha y hora" />
+
+            <TextView
+                android:id="@+id/favoritos"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:textSize="10dp"
+                android:textAppearance="?android:textAppearanceSmall"
+                tools:text="Favoritos" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/listItemIcon"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="3dp"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="fitCenter"/>
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PublicacionFull">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="8"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+        <ImageView
+            android:id="@+id/img_publicacionFull"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/logo_temp"
+            android:paddingTop="16dp"
+            />
+        <TextView
+            android:id="@+id/tituloFull"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Titulo de la publicacion"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:paddingTop="10dp"
+            android:inputType="textMultiLine|textCapSentences"
+            android:maxLines="4"/>
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/publicacionHTMLFULL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contenido de la noticia"
+            android:paddingTop="10dp"
+            android:textAppearance="?android:textAppearanceSmall"
+            />
+        <TextView
+            android:id="@+id/FechapubFULL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:textAppearance="?android:textAppearanceSmall"
+            tools:text="fecha de la publicacion" />
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

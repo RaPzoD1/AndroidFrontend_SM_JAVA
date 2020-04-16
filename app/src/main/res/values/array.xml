@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Facultades">
+        <item name="Facultades">Seleccione Facultad</item>
+        <item name="CEAC">Ciencias Economicas, Administrativas y Contables</item>
+        <item name="CH">Ciencias Humanas</item>
+        <item name="CS">Ciencias de la Salud</item>
+        <item name="DCP">Derecho y Ciencias Politicas</item>
+        <item name="IA">Ingenieria y Arquitectura</item>
+    </string-array>
+    <string-array name="CEAC">
+        <item name="Administracion">Administracion</item>
+        <item name="Contabilidad">Contabilidad</item>
+        <item name="Economia">Economia</item>
+        <item name="Finanzas">Finanzas</item>
+        <item name="Marketing">Marketing</item>
+        <item name="Negocios_internacionales">Negocios Internacionales</item>
+    </string-array>
+    <string-array name="CH">
+
+        <item name="Educacion">Educacion</item>
+        <item name="Turismo">Turismo</item>
+    </string-array>
+    <string-array name="CS">
+
+        <item name="Enfermeria">Enfermeria</item>
+        <item name="Obstetricia">Obstericia</item>
+        <item name="Estomatologia">Estomatologia</item>
+        <item name="Psicologia">Psicologia</item>
+        <item name="Medicina_humana">Medicina Humana</item>
+        <item name="Tecnologia_Medica">Tecnologia Medica</item>
+    </string-array>
+    <string-array name="DCP">
+
+        <item name="Derecho">Derecho</item>
+    </string-array>
+    <string-array name="IA">
+
+        <item name="Arquitectura">Arquitectura</item>
+        <item name="Ingenieria_Ambiental">Ingenieria Ambiental</item>
+        <item name="Ingeniera_Industrial">Ingenieria Industrial</item>
+        <item name="Ingenieria_Civil">Ingenieria Civil</item>
+        <item name="Ingenieria_Sistemas">Ingenieria de Sistemas</item>
+    </string-array>
+    <string-array name="defaultEscuelas">
+        <item name ="default">Seleccione su Escuela Profesional</item>
+    </string-array>
+</resources>
